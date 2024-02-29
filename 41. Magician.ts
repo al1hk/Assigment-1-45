@@ -4,6 +4,6 @@ function showMagicians(magicians: string[]): void {
     }
 }
 
-const magicianNames: string[] = ["Merlin", "Houdini", "David Copperfield", "Penn", "Teller"];
+const magicianNames: string[] = ["Ali", "Hamza", "Dawood", "Abdullah", "Roshan"];
 showMagicians(magicianNames);
 
