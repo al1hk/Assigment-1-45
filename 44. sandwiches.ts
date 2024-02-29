@@ -9,7 +9,6 @@ function orderSandwich(...items: string[]): void
     {
         console.log("Items: " + items.join(", "));
     }
-    console.log("\n");
 }
 
 orderSandwich("Ham", "Cheese", "Lettuce");
