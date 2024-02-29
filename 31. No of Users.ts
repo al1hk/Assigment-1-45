@@ -1,9 +1,6 @@
-let username : string[] = ['John','Bob','David'];
+let username : string[] = ['Ali','Abdullah','Javed'];
 if(username.length = 0)
 {
     username = []
-    console.log("Users are successfully removed")
-}
-else{
-    console.log("We need to find some users");
+    console.log("We need to find some users!")
 }
