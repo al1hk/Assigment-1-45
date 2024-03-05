@@ -1,7 +1,5 @@
-let name : string = ("Ali Hassan");
-let name_upper :string = name.toUpperCase();
-let name_lower : string = name.toLowerCase();
-console.log(name_upper);
-console.log(name_lower);
+let name: string = "Ali Hassan"; 
 
-// I don't know how to print in titlecase
+console.log(name.toLowerCase()); 
+console.log(name.toUpperCase()); 
+console.log(name.charAt(0).toUpperCase() + name.slice(1).toLowerCase());
