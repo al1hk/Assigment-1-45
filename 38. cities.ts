@@ -1,4 +1,4 @@
-function describeCity(city: string, country: string = "Default Country"): void {
+function describeCity(city: string, country: string): void {
     console.log(city + 'is in ' + country);
 }
 
