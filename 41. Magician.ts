@@ -1,9 +1,10 @@
-function show_name_Magicians(magicians: string[]): void {
-    for (const magician of magicians) {
-        console.log(magician);
-    }
+function magicians(magicians : string[])
+{
+   return (`magicians[]`) 
+}    
+let magicians_name : string[] = ['Ali','Hamza','Dawood']
+magicians(magicians_name)
+for(let a = 0; a<magicians_name.length; a++)
+{
+    console.log(magicians_name[a])
 }
-
-const magicianNames: string[] = ["Ali", "Hamza", "Dawood", "Abdullah", "Roshan"];
-show_name_Magicians(magicianNames);
-
