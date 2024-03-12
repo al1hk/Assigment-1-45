@@ -7,7 +7,7 @@ function orderSandwich(...items: string[]): void
     } 
     else 
     {
-        console.log("Items: " + items.join(", "));
+        console.log("Items: " + items);
     }
 }
 
