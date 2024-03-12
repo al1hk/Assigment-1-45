@@ -1,14 +1,13 @@
 const numbers: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 for (const number of numbers) {
+    let suffix : string = 'th'
     if (number === 1) {
-        console.log(number + 'st');
+        suffix = 'st'
     } else if (number === 2) {
-        console.log(number + 'nd');
+        suffix = 'nd'
     } else if (number === 3) {
-        console.log(number + `rd`);
-    } else {
-        console.log( number +`th`);
+        suffix = 'rd'
     }
+    console.log(`${number}${suffix}`)
 }
-export{}
